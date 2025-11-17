@@ -1,0 +1,11 @@
+# Group Therapy Management System (Backend)
+- Node + Express + Mongoose
+- Models: User (Therapist, Member, Admin), Group, Session, Attendance
+- Auth with JWT
+- Seed script to create sample users and groups
+- Endpoints:
+  - /api/auth (register/login)
+  - /api/groups (create/list/update) - Therapist/Admin
+  - /api/sessions (create/list) - Therapist/Admin
+  - /api/attendance (mark attendance) - Therapist/Admin
+  - /api/members (join group, list my groups) - Member
